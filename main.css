@@ -56,18 +56,40 @@ img {
   margin: 0px;
 }
 
-a {
-  color: #373B47;
+footer {/*color pie de pagina*/
+  background: #373B47;
   text-decoration: none;
 }
 
-a:hover {
-  color: #E95853;
-}
 
 .text-uppercase {
-  text-transform: uppercase;
+  text-transform: uppercase;/*pasa a mayuscula*/
+  
 }
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
+
+header {
+  margin-left:158px;
+  margin-top: 41px;
+  text-transform: uppercase;
+}
+.fondo1{/*imagen 1, fondo taza*/
+  width: 100%;
+ 
+
+ 
+}
+
+.fondo-naranja {
+  background: #E95853;
+  color:#FFFFFF;
+}
+h2,h5 {
+  text-transform: uppercase;
+
+}
+body section * {
+  text-align: center;
+}
 
