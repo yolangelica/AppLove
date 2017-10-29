@@ -1,95 +1,194 @@
-/*CLASES REUTILIZABLES*/
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
 
-*:before, *:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
+/*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
+
 
 body {
-  margin: 0 auto;
-  font-size: 16px;
-  line-height: 1.71429;
+  margin: 0 auto;/*AJUSTA MARGENES AL NAVEGADOR*/
+ font-family: 'Raleway', sans-serif;/*TIPOGRAFIA*/
 }
 
-img {
-  vertical-align: middle;
+body section * {
+   text-align: center;/*ALINEACION TEXTO EN SECCIONES*/
 }
 
-.container {
-  width: 1200px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 14px;
-  padding-right: 14px;
+
+
+
+
+/*___HEADER BARRA FIJA______*/
+
+header{ 
+  position: fixed;
+  background-color: #FFFFFF;
+  width: 100%;
+  background: cover;
+  margin-top: 0;
+  padding: 15px;
 }
 
-.container:before, .container:after {
-  content: " ";
-  display: table;
+.text-header{
+  padding-bottom:20px;
+  padding-top: 5px;
+  font-weight: bold;
+  text-transform:uppercase;
+  padding-left: 120px;
 }
 
-*:before, *:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+.text-header li{
+  display: inline-block;
+  text-decoration: none;
+  margin-right: 30px;
 }
 
-.container:after {
-  clear: both;
+
+header .logo img{
+  display: inline-block;
+  position: absolute;
+  top:0px;
+  width: 80px;
+  margin-left: 800px;
 }
 
-.mb-0 {
+
+/*_______SECTION 1:HOME:FONDO TAZA_________*/
+
+
+.section1{
+  background-image: url(../AppLove/assets/images/bg-home.jpg);
+  height: auto;
+  background-size: cover;/*ajusta imagen a navegador*/
+  background-repeat: no-repeat;
+  color: #FFFFFF;
+  
+}
+
+
+.section1 h1{
+  font-size: 50px;
+  
+}
+
+.texto-section1{
+  padding-top: 90px;
+text-transform: uppercase;
+padding-bottom: 100px;
+}
+
+.section1 a {
+  background-color: #2ECC71;
+  color:#FFFFFF;
+  padding: 10px 20px;
+  text-decoration: none;
+
+
+}
+.boton-verde{
+  margin-top: 150px;
+  display: inline-block;
+  margin-top: 90px;
+}
+/*______________________SECCION2 _______________________*/
+
+
+/*SERVICES TITULO*/
+.contenedor-texto {
+  padding-top: 65px;
+  padding-bottom: 70px;
+  color: #FDEDEC;
+}
+
+.contenedor-texto h1{
+  font-size: 35px;
+}
+
+/*LISTAS*/
+
+.listas li {/*elimina las caracteristicas lista*/
+  color:#FFFFFF;
+  text-decoration: none;
+  list-style:none;
+  font-size: 13px;
+}
+
+.listas{
+  display: inline-block;
+}
+
+/*IMAGENES EN LISTAS*/
+
+.listas  img{/*tamaño imagenes google*/
+  width: 200px;
+  margin:0px 60px;
+}
+
+/*FONDO DE SECCION2*/
+.fondo-naranja {
+  background: #E95853;
+  color:#FFFFFF;
+}
+
+/*TEXTO FONDO2*/
+.fondo-naranja h1,h5 {
+  text-transform: uppercase;
+  margin-bottom: 7px;/*quita el margen entre titulo y listas*/
+}
+/*PADDING INFERIOR FONDO2*/
+.contenedor-listas{
+  padding-bottom: 65px;
+}
+
+/*_______________SECCION3____________________________*/
+
+.text-section3{/*espacio entre seccion y texto WORK*/
+  padding-top: 80px;
+}
+
+.text-section3 h1{
+  font-size: xx-large;
+}
+
+.text-section3 h4{
+  color:#424242;
+  padding-bottom: 40px;
+}
+
+
+
+
+/*imagen pc*/
+
+.section3 img{
+  width: 70%;
+  height: auto;
+  margin-left: 200px;
+}
+
+
+/*_____________SECTION4 IMAGENES____________*/
+
+.section4 img {
+width: 300px;
+margin:15px;
+text-align: center;
+}
+
+.parrafos p{
+  display: inline-block;
+  margin: 5px 75px;
+  font-weight: bold;
+  color: #424242;
+  padding-bottom: 50px;
+}
+
+/*_____________FOOTER____________________*/
+footer p{
+  padding:30px;
+  color:#FFFFFF;
+  text-align: center;
   margin-bottom: 0px;
-}
-
-.mt-0 {
-  margin-top: 0px;
-}
-
-.m-0 {
-  margin: 0px;
 }
 
 footer {/*color pie de pagina*/
   background: #373B47;
   text-decoration: none;
 }
-
-
-.text-uppercase {
-  text-transform: uppercase;/*pasa a mayuscula*/
-  
-}
-
-/*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
-
-header {
-  margin-left:158px;
-  margin-top: 41px;
-  text-transform: uppercase;
-}
-.fondo1{/*imagen 1, fondo taza*/
-  width: 100%;
- 
-
- 
-}
-
-.fondo-naranja {
-  background: #E95853;
-  color:#FFFFFF;
-}
-h2,h5 {
-  text-transform: uppercase;
-
-}
-body section * {
-  text-align: center;
-}
-
